@@ -21,7 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.authors = ["Stevo"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-    gem.add_runtime_dependency 'scoped_search', '> 0.7.1'
+    gem.add_runtime_dependency 'scoped-search', '> 0.7.1'
   #  gem.add_development_dependency 'rspec', '> 1.2.3'
 end
 Jeweler::RubygemsDotOrgTasks.new
