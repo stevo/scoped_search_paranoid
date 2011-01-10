@@ -1,6 +1,9 @@
 # rcov generated
 coverage
 
+.idea
+Gemfile.lock
+
 # rdoc generated
 rdoc
 
