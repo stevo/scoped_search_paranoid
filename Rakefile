@@ -11,17 +11,17 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
+   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "scoped_search_paranoid"
   gem.homepage = "http://github.com/stevo/scoped_search_paranoid"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Handles deleting and archiving of records in conjunction with scoped_search}
+  gem.description = %Q{With ssp you no longer need to care about if deleted or archived entries are displayed in your listings. You can still use automatically generated scopes to access these records. oh.. and destroy method is overwritten as well :)}
   gem.email = "blazejek@gmail.com"
   gem.authors = ["Stevo"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
+    gem.add_runtime_dependency 'scoped_search', '> 0.7.1'
   #  gem.add_development_dependency 'rspec', '> 1.2.3'
 end
 Jeweler::RubygemsDotOrgTasks.new
